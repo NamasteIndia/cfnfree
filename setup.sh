@@ -7,7 +7,7 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
 fi
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/troy007_bot
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -20,37 +20,37 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssh"
+akbarvpn="raw.githubusercontent.com/namasteindia/cfnfree/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/lizsvr/cfnfree/main/sstp"
+akbarvpnn="raw.githubusercontent.com/namasteindia/cfnfree/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/ohp"
 # link Hosting update
-akbarvpnnnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/update"
+akbarvpnnnnnnnnnnn="raw.githubusercontent.com/namasteindia/cfnfree/main/update"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(curl https://raw.githubusercontent.com/lizsvr/cfnfree/main/ipvps.txt | grep $MYIP | awk '{print $3}')
+IZIN=$(curl https://raw.githubusercontent.com/namasteindia/cfnfree/main/ipvps.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/mirrorupdatesnnews"
 exit 0
 fi
 clear
@@ -77,7 +77,7 @@ wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Update Menu
 wget https://${akbarvpnnnnnnnnnnn}/getupdate.sh && chmod +x getupdate.sh && ./getupdate.sh
 # sslh fix
-wget https://raw.githubusercontent.com/lizsvr/cfnfree/main/sslh-fix/sslh-fix.sh && chmod +x sslh-fix.sh && ./sslh-fix.sh
+wget https://raw.githubusercontent.com/namasteindia/cfnfree/main/sslh-fix/sslh-fix.sh && chmod +x sslh-fix.sh && ./sslh-fix.sh
 #restart service
 restart
 
@@ -95,7 +95,7 @@ rm -f /root/newhost.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
-Documentation=https://t.me/Akbar218
+Documentation=https://t.me/troy007_bot
 
 [Service]
 Type=oneshot
